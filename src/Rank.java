@@ -1,3 +1,8 @@
+/**
+ * An enumerated type for the card rank.
+ *
+ * @author Kody Rogers
+ */
 public enum Rank {
         TWO("2", 2),
         THREE("3", 3),
@@ -21,6 +26,13 @@ public enum Rank {
                 this.value = value;
         }
 
-        
+        public int getValue() {
+                return value;
+        }
+
+        @Override
+        public String toString() {
+                return this.display;
+        }
         
 }
