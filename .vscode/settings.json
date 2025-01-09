@@ -1,0 +1,3 @@
+{
+        "jdk.runConfig.vmOptions": "-Dfile.encoding=UTF-8"
+}

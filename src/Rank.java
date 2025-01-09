@@ -4,6 +4,7 @@
  * @author Kody Rogers
  */
 public enum Rank {
+        ACE("A", 14),
         TWO("2", 2),
         THREE("3", 3),
         FOUR("4", 4),
@@ -15,8 +16,8 @@ public enum Rank {
         TEN("10", 10),
         JACK("J", 11),
         QUEEN("Q", 12),
-        KING("K", 13),
-        ACE("A", 14);
+        KING("K", 13);
+        
 
         private final String display;
         private final int value;
